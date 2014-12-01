@@ -1,0 +1,10 @@
+http://www.youtube.com/watch?v=nOio_Bp8w58
+http://automotoszkolenia.pl/img/egzamin_b/luk_kat_b.jpg | a = 30,5m | b = 3m | c = 27,5m | d = 6m | e = 9m | f = 5m | r = 6m | R = 6m
+
+
+stworzenie prototypowego pola
+nadanie mu przyk³adowego materia³u
+u¿ycie prototypu samochodu z unity
+utworzenie prototypu pacho³ków
+nadanie im rigid body
+utworzenie linii w narzêdziu prototype
