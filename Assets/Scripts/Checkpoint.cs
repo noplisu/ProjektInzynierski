@@ -7,12 +7,10 @@ public class Checkpoint : MonoBehaviour {
 	public InZone back;
 	public InZone right;
 	public InZone left;
-    Rigidbody player;
 	Checkpoints controller;
 
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody>();
 		controller = GetComponentInParent<Checkpoints>();
     }
 
