@@ -26,9 +26,8 @@ public class Lost : MonoBehaviour {
 
     void execute()
     {
-        text.text = comment;
-        print(player);
-        player.enabled = false;
         lost.SetActive(true);
+        text.text = comment;
+        player.enabled = false;
     }
 }
