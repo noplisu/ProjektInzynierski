@@ -6,10 +6,10 @@ public class Lost : MonoBehaviour {
 	public string comment;
 	public GameObject lost;
 	public Text text;
-	CarUserControl player;
+	CarController player;
 
 	void Start(){
-		player = GameObject.FindGameObjectWithTag("Player").GetComponent<CarUserControl>();
+		player = GameObject.FindGameObjectWithTag("Player").GetComponent<CarController>();
 	}
 
 	void OnCollisionEnter(Collision collision){
@@ -28,6 +28,7 @@ public class Lost : MonoBehaviour {
     {
         lost.SetActive(true);
         text.text = comment;
-        player.enabled = false;
+        //player.enabled = false;
+        player.Immobilize();
     }
 }

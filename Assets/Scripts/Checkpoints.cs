@@ -4,6 +4,7 @@ using System.Collections;
 public class Checkpoints : MonoBehaviour {
 	int currentCheckpoint = 0;
 	Checkpoint[] checkpoints;
+    public GameObject win;
 
 	void Start()
 	{
@@ -18,6 +19,7 @@ public class Checkpoints : MonoBehaviour {
 	{
 		checkpoints[currentCheckpoint].gameObject.SetActive (false);
 		if (currentCheckpoint + 1 >= checkpoints.Length) {
+            win.SetActive(true);
 			return true;
 		}
 		else {
