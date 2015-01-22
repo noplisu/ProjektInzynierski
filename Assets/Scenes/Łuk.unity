@@ -1171,6 +1171,10 @@ Prefab:
       propertyPath: m_Name
       value: UI
       objectReference: {fileID: 0}
+    - target: {fileID: 11400008, guid: 4dc53e0452f28bc479e6585d47942801, type: 2}
+      propertyPath: m_Type
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4dc53e0452f28bc479e6585d47942801, type: 2}
   m_RootGameObject: {fileID: 628823900}
@@ -3774,6 +3778,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 302588233}
   - 114: {fileID: 302588234}
+  - 114: {fileID: 302588235}
   m_Layer: 0
   m_Name: Checkpoint
   m_TagString: Untagged
@@ -3816,6 +3821,17 @@ MonoBehaviour:
   back: {fileID: 2025280649}
   right: {fileID: 7213965}
   left: {fileID: 618154820}
+--- !u!114 &302588235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 302588232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b07d2856647668949b9698f39c50b4f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &313483871
 GameObject:
   m_ObjectHideFlags: 0
@@ -59198,6 +59214,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1661636738}
   - 114: {fileID: 1661636739}
+  - 114: {fileID: 1661636740}
   m_Layer: 0
   m_Name: Checkpoint
   m_TagString: Untagged
@@ -59240,6 +59257,17 @@ MonoBehaviour:
   back: {fileID: 1268065080}
   right: {fileID: 2083273396}
   left: {fileID: 1883384898}
+--- !u!114 &1661636740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1661636737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b07d2856647668949b9698f39c50b4f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1663745069
 GameObject:
   m_ObjectHideFlags: 0
